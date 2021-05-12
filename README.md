@@ -2,7 +2,8 @@
 
 _Python Dubbo Client._
 基于Apache dubbo-python2 [参考](https://github.com/apache/dubbo-python2)
-fork from https://pypi.org/project/dubbo-python/
+
+基于 https://pypi.org/project/dubbo-python/ 修改 java的date类型返回时间戳，非%Y-%m-%dT%H:%M:%S.%f+0800格式字符串
 ## Installation
 
     python setup.py install
